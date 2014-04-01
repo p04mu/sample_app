@@ -1,0 +1,7 @@
+.
+
+Finished in 0.11201 seconds
+1 example, 0 failures
+
+Randomized with seed 17843
+
