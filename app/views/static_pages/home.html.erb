@@ -1,7 +1,12 @@
-<% provide(:title, 'HOME') %>
-<h1>Sample App</h1>
-<p>
-	Это домашняя страница для
-	<a href="http://rails.org">ROR TUTOR</a>
-	sample_app
-</p>
+<div class="center hero-unit">
+	 <h1> Тестовое приложение</h1>
+
+	 <h2> Это главная страница для
+	 	<a href="http://">RoR Урок</a>
+	 	пример приложения.
+	 </h2>
+
+	 <%= link_to "Зарегистрироваться", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), 'http://ror.org' %>
