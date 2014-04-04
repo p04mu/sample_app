@@ -1,6 +1,7 @@
 SampleApp::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-
+  # Speed up tests by lowering bcrypt's cost function.
+  ActiveModel::SecurePassword.min_cost = true
   # Code is not reloaded between requests.
   config.cache_classes = true
 
